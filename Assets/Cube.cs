@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class Cube : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class Cube : MonoBehaviour
 
     void Start()
     {
-      Hello();
+    //  Hello();
 
       HelloString("This is a string.");
 
